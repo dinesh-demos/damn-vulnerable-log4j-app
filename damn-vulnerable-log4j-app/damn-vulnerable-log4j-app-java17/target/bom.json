@@ -1,0 +1,2478 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:a837b78d-036e-41a6-9a5b-4231eb043aa6",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-02-27T14:33:39Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.4",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "1c0045824ba8b7c3459faf37fadb5ca4"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "c0259ad78634a65918e328d793d2ea0b8a9c2220"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "47bd0e0176ba679b66739820bc52880a9e667c57c8b7301de698c0ce7e271bb1"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "e8b72acd176d5d3e13646c2422d6fac1e47d369162cbde8796afa567d36bd182a5f8f4cbdc46185f3607a71e92c410ab0eacd87ab8c17b38e352eb3077a46ecb"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "8759a5908a1dbd6797ce597bba7d67a073d63129e1affd9b827482581ee85815b118fb4e950991b9d6793a5d70e8b901"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "7721f8119070762eed34e1d7fbe0eb2f590130a62f9ebcf15dbb9d3321ef25ba2b0709eb6f3e922b59f7203554db555c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "3fc2ede35393130c22e8ea1985092c498f51f88c67925701906c910829aaac1e"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "7f54ea340410b97d5ccf4b417928359ea30be0d71d4aaa859389f308407e9d94fa3617d395f7e81e00881da67143aa8910fdae2dd01a8fc9c9a07b8bc03fb3b1"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "com.snapattack.dvlog4ja",
+      "name" : "com.snapattack.dvlog4ja",
+      "version" : "1.0",
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war"
+    }
+  },
+  "components" : [
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.ws.rs",
+      "name" : "jakarta.ws.rs-api",
+      "version" : "3.0.0",
+      "description" : "Jakarta RESTful Web Services",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "dd98ad2f0edcec6c0f0875695b8647e9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5eea182d6651a7257bc8c3614507e1540c766fc2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0bcb2cf4522831ad83cc7e936b8db60e2afb2582d19d672eb17d01da2c777322"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "25a57149d3b5b57d21ad7b97d5c293adb549b363fb9c22f5d894adab174cd3019886cfa2b8425b67644b12769075fd891352c5230b66846c9bbcd26bc98dc3a9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5602c64b0612e2b6649b2ca2aeae9eab536bb816d41643aa1caace022010b4767cdc9ae3518e2d303476c09260bd3023"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ed2e09bb8083474846fa7edb928527d7f37258351aa45e93f46cf40215e89317b6659a829fef3b4837449e347bfb5ca9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "67066e127150ca5eec06bb65caaacf3635d5ed856918518932f4d7766725df1c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "439072f3869ad8a6128f2b2592328ba604b41111df2938a20b112b7ff8f16d537d8ffc4f83b8fe762c3f8f716fffd73b692a15e90666a1b3fcf97b4e2e9f4388"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception",
+            "url" : "https://www.gnu.org/software/classpath/license.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaxrs-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxrs-api/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "jaxrs-dev@eclipse.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxrs-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.containers",
+      "name" : "jersey-container-servlet",
+      "version" : "3.0.2",
+      "description" : "Jersey core Servlet 3.x implementation",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cf174b47289e4d97ca85a84999ddedbe"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fcf8a38fc823036a65d7b48dc39596a11c9e224f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2ff84fd93ea5c1f3d39e3f401f971488565430296928b94d4af08e7c205d4ca4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "746c5871680a61ae8a481744b935d8e1161e5abb984c4579aa32799be527588ceabf131fb78cd3a014407246c5dae7ff292b3b11790a0880d987b708bed00b58"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "094a66087eb827e2951d10423f1560ba4a2ddf86573578f9d352f260a40dffabc77f8e18f0f95ee9fbeaf32335f24c2c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "def50cfb2071f2a501728dac0b5433822821b27553b9fd74a0bfa8e94dde4cad4e842e7d44110c7ef04589a71899fbf0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a16ef265ec891fcdc1261114e18caf31dc21aa939ec0d5db106e0b895ee6d1ae"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d08f00160973ec48bbe5c039d05916a65f71d1b87b40532cbad6fe65acbb3395e836105866d3778a38ab12942d641a90b2bb1227272fae3097aa7d288f62de38"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-container-servlet"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/project/jersey-container-servlet"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.containers",
+      "name" : "jersey-container-servlet-core",
+      "version" : "3.0.2",
+      "description" : "Jersey core Servlet 3.x implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5c784fe23536c817760dcb8886718d88"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "39ef57af56ac9b004783d8212025e8419c4b82d7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "73d6508b96ce5e31aeac632a69f7cb511bb175c2366c9a1a2f24aa581a29b774"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2fa9f0ebab21275dc6e618768f707f3139dee51f39fb86f27e60ca5d5ca49581a0ba84a029d83aed274a4cb0b39eb69acb414de7cc55d734f028ba6172f38da6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9bc06680badad0c9f2d32331a8b8394148df84d3297ad79f9c3005911302d3bb5a7aea2d75b65a4a8d8140a93f2d9583"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ab5b22a018385ca220bad7771a1f740133c5d60556f58712939f01c2660d6b6dcbded77c59e3f3a17979ee6bd15a66a4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f96f105bc916797239083ab8df414468b673fcff05f7781daa423db7dbd1919b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d10a240d0201d0c8102b6e148bbb693dcbd355e1793ce71f9c214cb6e7c5c031b09505f2a0dca968f58d0483bdf8225b4010e46e292785cf06a128a4f948fda9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-container-servlet-core"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/project/jersey-container-servlet-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.inject",
+      "name" : "jakarta.inject-api",
+      "version" : "2.0.0",
+      "description" : "Jakarta Dependency Injection",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6dcba3a46ee8556a4d4312c1c2bd4d79"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "46fc8560b6fd17b78396d88f39c1a730457671f0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "842ccf3b892aca3fbd384c99d1516a8b7c448c55cee560ab2724488016198706"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5512882113f8dcb70b087f01e3c11d7d3d505c1671bee6dc47208014599d7830d6f184d249b9db72b351c05dd33259c821b80b784c7b3b6e961eeb03a689644b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d1576a3afa0f01050038852224617c59f7f497226fa0f4542da0df0eb6965289475b3caad79cd7a465cacaab6c00d59c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bf635d56daeb3f3b1aac404dc47387baf0445b0beca131a83988f086ad99d10098ca2343c6a269180bc28edf6251b88f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0127de566eec72728265bf5c2cca228ae4fed4656aead313bd742b57c608f183"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "69646e719e8638a38bc73cc29d9881c3cf1fdd0c8232303d5f8eb9f1b732c038407f332fd8b095ae0b08dc44b133cf5a3ea661e649a89dbeb0894e08871a1ca0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/injection-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/injection-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.core",
+      "name" : "jersey-common",
+      "version" : "3.0.2",
+      "description" : "Jersey core common packages",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ec6e7e6212f0fef12d7c3fd93fd24569"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "486822ad0e693daa027ca0ace54ce8de0df3c4c1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1983f0dd1c6f89f4e7057646430588144699bd219f586a934e94e108a08a7046"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b5b62c10414703166f3d94a16c5d053687e52836d5f5f45fd0d58a2edd9ea626da2a2db0667b3b930581764b4515906cad0a5db2881b97bfc33a82b71ee91070"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cabc17bcdbadbeeaa787fcbb2afc3796d1466e3e5f56aabfdadd655496c478b26a5f120100150a30e60ad30505e68408"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "82cfedeeb0f35173d91eb407057fbd0b6b9ca2f4dba413bfb79fb0278331987d330dcdfde69ff315992a60e6cc574593"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e7e89c143cf41665fb88b03bea85f25313b480de933fbc01817076854c3a5104"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2dfce65e97062db65d26eb65829c80218206f388c27c26c5915fc454ec4c2ccf7635cfe7f23b0357b1698f182096f5cc0f1adb63818bbcec81d90616a293b6ca"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "The GNU General Public License (GPL), Version 2, With Classpath Exception",
+            "url" : "https://www.gnu.org/software/classpath/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/jersey-common"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/jersey-common"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.annotation",
+      "name" : "jakarta.annotation-api",
+      "version" : "2.0.0",
+      "description" : "Jakarta Annotations API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2ef9636790e49964e3f17016b02f7e1a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f3cd84cc45f583a0fdc42a8156d6c5b98d625c1a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2f0a0a2a5fe653794bdb1b9531bc9bea53c92c11e0b693e74cf8e396aa2ff325"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7cd34890b93f32f8c1956aec4825ffcfa5151cc6de62930a46fc4c6b75182a8579dcc79ba0fa2fec12fe19d9301891130b610df374ab105e61a0991e15b5a006"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0f12b02cb5c11f2607c5d7dbfd2cbd5a7be2ed0ba0a7b7f7c037e70afdac5135e1c52e1c8c5067a747f4905f9b3b6f47"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "eefa4236b5499b10775349c5cd045381eb754969deb015d76e841f2b143ecc5a6e7914ba311b56e1ad31b9cb06cdfb59"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a161d358eddcfecb137f5c398fd698effeb53306d8830e636fe32492efd554c3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ed698b4d097ce3d17ee15803b9db347a65637c4082bdbad27bc9be476ad2310cc8db0f74d00ee052fa8b8cc77b1c740ec1df306e9dc95382eafe781ba64e13ec"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.ca"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/common-annotations-api/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/ca-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/common-annotations-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.0.0?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.hk2",
+      "name" : "osgi-resource-locator",
+      "version" : "1.0.3",
+      "description" : "Used by various API providers that rely on META-INF/services mechanism to locate providers.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e7e82b82118c5387ae45f7bf3892909b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "de3b21279df7e755e38275137539be5e2c80dd58"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "aab5d7849f7cfcda2cc7c541ba1bd365151d42276f151c825387245dfde3dd74"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4d84983a9b1c72f58661b576c78ca456a2106602c2ad211cd7e72d94464c8774173b34a35629c507c7c84c982f1de0c9bf48352458e8480be5f874d20d6e69a3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9f92002296c66cc8996d459b95a9c531ec71b98a8b819121abbc7d636a6c4ace04c88878ba6917f71650280a880d1ce2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b27581d003ce715fba7e2958dbe73b64330b8586d94dd2f4b80b3d4861fd36415af6c2fe1005a798a7bd4f706d77e3d1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "cf90e96adac2f1167ff71267db4a91c75d824f8a4b0359d2ab7d50b1c87c3952"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "75f9ff6c3ab03f4471ac04789c181b75edf4c5dbf985a5616b2c979de59aa478b02593036f740a6c7bb71afcb145c131a3ff3e5a6a53336abab22f2cc9825772"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/osgi-resource-locator"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2-extra"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.core",
+      "name" : "jersey-server",
+      "version" : "3.0.2",
+      "description" : "Jersey core server implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3e478732cdf4e2f82579fee1f57c2360"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a885caf39d09f40b5357a197f73e5a683871f10c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5f1fccd2392e5233953cf0a4c83014578e12f06231382be18798774458c1878d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "21c1625922422ef13b28110fb11967b1f842a1e71fd959d5e1c7dbe811a2053bf7b18049ad221acacb13013fa893933f39a1fb4cadd8609029a6e4d135a07135"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b6871ab9eacef765a44bda6d3019425e331a2e6b6a45f1b9d274dc3ddfb11a57d01e1a17b862abb509d24f60ad189360"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a787ad48679ed1419097ecccbe16a49c31837188c0f1010cb122448b3a2075762a435d65170fc28e3eeb79d04330e045"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "58e0ee2ec4aef2db76dbdbf7172910e16d6092c653b3f16855a77b0fbe7890f4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cdc5dc27bb088cd8b7afcbef2cbfb2c36534ddf15c9bac2cf6f4c04c720c8f4291842797e8071f8ad8dcf564492ec5597a6e38e28f92f06ffab7b6f0dfac5f7a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "The GNU General Public License (GPL), Version 2, With Classpath Exception",
+            "url" : "https://www.gnu.org/software/classpath/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-server@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/jersey-server"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/jersey-server"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-server@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.core",
+      "name" : "jersey-client",
+      "version" : "3.0.2",
+      "description" : "Jersey core client implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8a6636a081029904abaa5c989e20eefb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5966eed58c7647b78c5e082f0d960a98623dfba9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a2a229aa2c467a9502ee07fbae72d17f0e81a1d25dd8c51d78671fc68fc4feb7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3b62a4610da8e63a91db81cb97d2343719009608f600325682cc6682f77d5f76623f511191170fa9b991ef6df2dfdd0b13377d9b5135fd9de88485178be17f8c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1470299f765a157983cdc6963302e69629dd87123d7172edaf94ca3325deedc86b844464ba3d5c3adb30c4552baf40c0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f337fdc71063fc264a33943f5d854b2f3d1e81f67dc1a1ab5fe15e8e91c8dabe510574253ab1ca6e26cf4755525ef19e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6df4d880a98caafb807358ce2d370e50de7125834504e78d5b902a05c67dbc02"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "37009e721bde6f6be240ebf122767d422f91909d092a5af0705b3b8874a50234d12bfe6e22887d01306d7b1928b4b97749f7d4ff3bb89e8c6f3a4be0de640b1e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-client@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/jersey-client"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/jersey-client"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.validation",
+      "name" : "jakarta.validation-api",
+      "version" : "3.0.0",
+      "description" : "Jakarta Bean Validation API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a4d1381dd80e2aa1898fa115d5c4724f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8c8eecc40da64037d7731356511c568d466f8480"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c9bb1a2e061cdd8b1ff6fd9115b58c4541fb41d5a20210e57936dac2777e4a19"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1cfb9726d872e4204a2e11e94ab593eef6432e4e1301f1a223088c3247671f5a241bf2bc21b3d5ff6026755a7024ddfad627e8fe9a839965759411e6b0063669"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "55b344d2fed70450854b341561eb3e3be78a2607b488f26deb39631dd55fae7872c58d869bd3cc3c5e350fa52af0d7c9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cdbd4ff04eabd905e8e4c1f5b38c323f7423f3966b4ca753e67e2f1a3c6a9344efe826af2af4381d85f85b3d36c004d2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1743c6a3b8f04f99d8c3aa7569764371bd9faa685044f711c92531c4f45c19a7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9667c8ed6274d1e51bee11cdbbea1b5b21f2060b2398148f726821af5334d2e63afa3899fb546f1f2a900d57c8d73bfb188431e560c64e43b27834d561fd8ac3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://beanvalidation.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://hibernate.atlassian.net/projects/BVAL/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/beanvalidation-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.0?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.inject",
+      "name" : "jersey-hk2",
+      "version" : "3.0.2",
+      "description" : "HK2 InjectionManager implementation",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c87e774da13d288c866026b2d8939843"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e22c522ca726913125f7b691d19acf6b52b5fdfb"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b6301b92bcab6fb3664f907ca29dad1ae864e00b18f748d53e2f2ea4fee9f749"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7606debe10b9e24e7434fa4c480f9c589d9646f4a3b798b19aeb1fdc48eb7a8439fb7008ba003c63a6013f1577b3049da6e41f77a2b458454e5b24ccc7e45a37"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cc9e9f9f37d40070156bbcdaa70c51301dfb43b5b400775ecd9a3b6065583f2af2f69f235610467297feb5b4e10d0fd1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5aa8dab4ebca44740f7c6e3dfab702b9e7f2e7d04bf65f30b37ec1f745a042a3b011a4827168dc4a4cf7539a35a34bc5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5c815567e7efffa61a7ee4d76219e702f96c2d61b61b536d7b28729022593702"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d08ddaa2e98d478110e15f042ef0cccc4824b841c4c6192c9caffcb3eca93048ab71906e0d3281a40d28876d93b3a2d509ab3220a44b6e55ce11a7192a0617f0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-hk2"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/project/jersey-hk2"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "org.glassfish.hk2",
+      "name" : "hk2-locator",
+      "version" : "3.0.1",
+      "description" : "ServiceLocator Default Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6290b20ba6398e035018736fc764ac35"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a9c4e89c7d01dce59ebfd3afa4758e14d3036135"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dddcafe0c45f438b449dd94be33fc3e0c0ff3d63f27640c04591852464c69ce9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1edfd0eb28a0b60a3f1d44dc5604a4681e3bda72cef0e8a953df419e84b9938051d48e3a471e3abf56c0107ddf95ca86d6c99cb063a2a14b1ba1be78a2b1f5fe"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0fc9d0f075d128347b865a3ca39797e449dec8b367581fabf90881c5087e6e5fcc58d28c18459b2e91ef69e7641d7590"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1b4623225f83518f4df318f7cd70d43dc252cbb71951031865953e09e2fe497c802d20bde175667bb565bc00ee912260"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8b27cceb8958989716f4e9a62a4faca68bac544fcaf03cdf7d6c2c70ad0e8383"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "492f7c5b0d5ef9cb6b982270b16aa14a2bff88202aab31261dd8be46e517628108cedeb3756d22abdcdc6fb363ecb9ac4328d7ee57607cdfaaf1bcf442cb711b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-locator@3.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-locator"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-locator"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-locator@3.0.1?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "org.glassfish.hk2.external",
+      "name" : "aopalliance-repackaged",
+      "version" : "3.0.1",
+      "description" : "Dependency Injection Kernel",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bf3b15b9bdcfa0dd1fb53e0593c9d351"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "05790cd4154515c8ad5267ea8e7a6cd896692cf1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6c69d95ad2562f44a7611eab356c4a5955a7b55c5da2e3cb0f42e6d530e02f36"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3668f73df26a036cb325e4de858e4b711b2e88b79504bc5a1fe64be716523951614645c8b11dcc476ad8fabd1281dc5121c95578a32dbc7a371a5d09b65f739c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f878f2f658a5de2ba125edd222b020ddb655ce455dfc5fe5fdf218d77a6bc65963e9387d4ef16b656af8989281ea4931"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "444a2ab994841e7771e1ee76cb0b9471a4dc6c2c8ea681b3212723ee60bce41cce8fac4a6512a572573136d25589161c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "358ea37f07f2d9a3acc94c82551a12fef7d59ea53e55676857a438da7c8c03d4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "002853d2d13252682b44d855eb8ec209ad579250d25026782530ef374bdc7d8777edd0e6e308f0680eeeeacc84792b7f6a3db728b86d1a598d63a25f6d1c44d6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@3.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/external/aopalliance-repackaged"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/external/aopalliance-repackaged"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@3.0.1?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "org.glassfish.hk2",
+      "name" : "hk2-api",
+      "version" : "3.0.1",
+      "description" : "HK2 API module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e6068d70256e492c021e520139c9f0ac"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4080927db83438aca2bbf45aea1f2df20cb8649a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "428684e4ade0d881da034c2a9f301defc686e0ecc09be606708191f60c89ac58"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7fc8efbc8eb67dc3eb85f152286f5e66e1924099e068ebea4af7051d658ea2a3fb3661bb30814b7eddd4189c32b98fee0bb56a5b212eed30ac666f70dfa57578"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f6747fa598d228ec9796d275ba105b054765e5bf547e15d3dd850515e035ebf7b04f9c40eac95a60a01da6b89a767522"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "508436169b4cb26f5ccb57a1768e3354ee553f3c73b6c14d24b4faf8004190e049ed08c36d6c09c357a450db4e14253e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c11107d5d6aaeda24dd885cd216ae74e184d440efc0e074a642986eb3797d98f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "42a38fcf82653446b5c79344aac9b4be201f9b8820a05df0a28b9b009e1b6c7358e83e0f78ecff0da497054f0f0d5007d9549e4d3ba2cceec3d4588f146a78d2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-api@3.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-api@3.0.1?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "org.glassfish.hk2",
+      "name" : "hk2-utils",
+      "version" : "3.0.1",
+      "description" : "HK2 Implementation Utilities",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6b105a5e4ba215cfc37bd15bfe34618b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "91a66d9f92545536589cdf897cad8622ca389266"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "73c6c0c6148ede0190028194aec370932ac4add3ac1ad73250c05d682a2b13fb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5939e695b9ead25fb27fa443ec6a2f4e50da722cd230cf1b8127f15bffbdd8a7aa2cb59fe985933fd66823a4105e1e52906115ddf83a38d446b05f8141096e1b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "45da475b0f2942d62070f1bac2f51f45787214a9f1c2bcf45a079c369ec6e0032bca505312b6adcc741fadc6c20400c3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9db87643546ab4dacd7798da1be1471e66cb66df38806858e10feaae23e523df83c552190c88eebc40e27c4a2be8ca56"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b637710f548f48b7e8c3ca5bad1eae0920ff5ecedfec8d375f2db11cd6c44873"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ad6958e82435734856ab28c8534424dd93f76b3d27ff8fb387c0fd93febae26f93739f84c1860d53b9093b13e220b8118b245dfecfd27b1aa251a8edc19a616d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-utils@3.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-utils"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/glassfish-hk2/hk2-utils"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-utils@3.0.1?type=jar"
+    },
+    {
+      "publisher" : "Shigeru Chiba, www.javassist.org",
+      "group" : "org.javassist",
+      "name" : "javassist",
+      "version" : "3.25.0-GA",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3a4267e01989478be188d127b7a39425"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "442dc1f9fd520130bd18da938622f4f9b2e5fba3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5d49abd02997134f80041645e9668e1ff97afd69d2c2c55ae9fbd40dc073f97b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "638d2ed77ae1f34dd57f6aa653635a77d8477b3e99f64343ea5eafcec49ebac13250639924c47c83246890bd8988d92c30785ed8854c8a101138c410657cb944"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "183a243f52aaea67057564cf0d18f0c32681907aa24eb65bbfd453016911cb42230a73271a0da20e3f1aabf4b0412e4e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "418f2a833307c287b212c841dc5145f0bd39e519cc6dddc8a8f714c42a1ffccc2cffc6d5032a0e8dbee1aceca1559aa4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0f1283759cfa9d3396af30a9535e7e1ef58fd0f46cf0ae362c09754360cc22a5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ac55a2bd2318bfd32545fa2bd89d8ce3c54188440b5f315e8a4c3ce4f91f97ab185b3b9eeaeedeebfb48febab07e8deb8f604d44fcaae64df486447d733e7e98"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-1.1"
+          }
+        },
+        {
+          "license" : {
+            "id" : "LGPL-2.1-only"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.javassist.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://jira.jboss.org/jira/browse/JASSIST/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:jboss-javassist/javassist.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.media",
+      "name" : "jersey-media-json-jackson",
+      "version" : "3.0.2",
+      "description" : "Jersey JSON Jackson (2.x) entity providers support module.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f8bebad27f8ee6e29fe825e34909ab3c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c470d108f61295d2d91a6b0e8666249fc01da67"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0f0ed02c0ed8c1a558c382e36058ee9fe5e335ebf0ce981653f4383a5b22fd14"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fe8d5467272bed352a00cea2f5fcd9b06e4142c9011a2a429d23cd65120e1c9aca9d66c014927aeb059223ed60fffd2a93df34e795dd66d534eb30eefc0b3c3b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ed5b40c22582b4a629716164e055ffdd5d316c5ec6f302d28efc4a9f3f966a87951e448123cbb94fc73dc8f8dc4e1d80"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8dd2502b7739168a6b3ac07a8cbe101ddda6efa0f500f8fd2cf83f7585a76d8438ad104f92aa9f96a4095118d75a0747"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d383dd040de623682d11e153eb1eac197091daa725da42b06e09d45990db6f43"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cc92ebdfbe1eff198fb7e013bbea4d96a13d574d2929a7b36052c399247da7bf6ecd8e4327eb2889f57f1274ec0671e919ee5b379a4159e6121cd8e68dad60d6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "The GNU General Public License (GPL), Version 2, With Classpath Exception",
+            "url" : "https://www.gnu.org/software/classpath/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-media-json-jackson"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/project/jersey-media-json-jackson"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.ext",
+      "name" : "jersey-entity-filtering",
+      "version" : "3.0.2",
+      "description" : "Jersey extension module providing support for Entity Data Filtering.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "40177a00a82cd53d340c2a837019d26a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "28e2c40153c9aa3ab35744f7f753ee2570584556"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e8acdb7843632a1c4442d8c98b524cab24c346e3084b3460500f348a881afd2d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a0ae88ff66f72ef90025f25c9d76789bb7572d4bf9315b8da082d580fbeebbe46f628a61724ce1b0c90af1136c75d45d90b952ac5b1482fec7cf3c83e34a4e79"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "925a26b6c4b348d6e6f31d4434d1e0f4e530de4ae16dbd498b4d4416ae685676fc6154ed7e8c95f6f72d26a8f47badef"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "18bf3e5a095b022f78b927f5835efc4ef4eb33d05362d2b9d05c74e06b123f1ba4c21c831969fcdb8f47dfc7e29d2a04"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1d69a2948b167302edb6c6aa58b7288fbbfacf039af7fedc28a0976e0ec55fb3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d3ea94b76198577fe3137ee71604777010130d9870803370dd69767041fe5a83c76406c106b3f226ff24053b7a5a9edfa78234b8e1e712b70d97967b80b52f93"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@3.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-entity-filtering"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/project/jersey-entity-filtering"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@3.0.2?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.12.2",
+      "description" : "Core annotations used for value types, used by Jackson data binding package.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "000332535aef84b64b67a549a9d0d40d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0a770cc4c0a1fb0bfd8a150a6a0004e42bc99fca"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "558561786c071af202e849b6ae3d39c87ed417ecc83d45e398c12eb3bffa557b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5011e9946045bfe23e2e8f06c50d0b325216fea735a3e83ff8de44650e03b03633463196e4cacd101a7ca4ecf1c1074c4d4ef6c5d21c3b4196cb395ac60993ab"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "50746813f591be52a418fb0e73cb9d44377042805417130b9f0985402e7f8f2ab2b88c52dcb750b1242d989bdec87c19"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e43d63a461d2c99fd52193f3681ce21ac0b0379bf3c319324a6171e02c4b9fc412726ed7e60d17e62ca4450e377a27b5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "86458460534d9cb6ee2c0fa280f19698ecbc56e1818495ac3081eaf4f10b4e78"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6d6aaa36cacbf383220f1faa86051f19f952fccdc5c96dbedd8cfc06b2a04e5867a2da19d2aa45ed48e8419c9272a29815bf93ad9154ddea699370293550113b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.12.2",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8ce740ce76d0b2b0f6e4a13f4dc58c4f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5f9d79e09ebf5d54a46e9f4543924cf7ae7654e0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c4002f861d8d33f3202bf8effabb53acc320c5276cc50c1bfaae73c36ce8db32"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "989ad045d6ba00146996068f6acee4b90fc5cdb7ee4d4c71a321c0ae06fcc32116879353585651d13634007e434fe1c0a51f6ba086161e1b6a2fdf037b2a8354"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "230aba58fcff5815edb9bc869b9bc92e931df2734f620c85eb04f4a2c66c555951299df233f3f279c9665cfe48cd2c73"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "48ae97475cc3a8fc68e109aa1a974f9fbae6ca1d80cfe131ce5c5484c733308bd095916e45b900a9f439f9cd90e76f71"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5e929aca8c78d53e1f743ca618abab6b7a5b8c6a74ee86979ede51409820f850"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1e62ed08a04787b6ae326ed3add32d4b98004e8335290d109ae99d098c8ac3168aa2f01f8e6d813c72ccbace6fb75a23831d02b22f455ce2f14cd0fc4121c9d4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-databind"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.2?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.12.2",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d9c1faa07f50abade5c796de00c4b23c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8df50138521d05561a308ec2799cc8dda20c06df"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7883331763729b72735fdd8a117f32eb7d22695babfb37cc99df8392c196efc3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4815cd65a44ac49e486c0aef639c3ee55b7d939b78bf6409a762f9d476279d9015d4b89b4a9d3a906b5e2cf512c9094c6450b7e1f03404e94d36fe2db287ea2c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c18f664fafef0fbb288213b4647d00e5d6ec1e30f8550c6118594e1e6ae60765c6c93de8eb83cfcee9e06d291f614f4d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4d9be7583c2a46ffc0cb94f56ea75149e2d6198f55ae4f5e0b79bd39700933a8db1fcf998909192c6c9c315b59e288b3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fbd7a373b7f0b3b273452c30c365a32f7dba5dce23ee3192aad1552b864c8b1b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "776582ff2379c22f4d277e22db4a2984f36295f616c9713543dc8414e3f44a6954a58e2fc71d2b32e196da6bfd64aa68b5519e1c95fe3bfac3340e745b79af78"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.2?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.module",
+      "name" : "jackson-module-jaxb-annotations",
+      "version" : "2.12.2",
+      "description" : "Support for using JAXB annotations as an alternative to \"native\" Jackson annotations, for configuring data-binding.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "27650ab7486832e408b0cfe894525c5b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f226bd0766b4e81493822e8c81eaa6cab27e589f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b6aca0666efc3b49a2715e78752e28d35ead80c671d898706091945e2ea1909f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6ff95c56dd80ec5dda127ada204da0cb592edea60208d0e868fe8d281094c514a37f86ce34fdf621694843ae2ccc67f8d5d8f23690def0b5f8bb967a7a06cebc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9120fcd5b0c46c5d680ecb9977a5cf9930804e8473f40fd7591c5a2030380f68ee9786620c49f6c2df5e2f7eda50ca3a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3842de61d32f71443f1d829c3c3ac366b796ae43d5d09854a2c789535e24f0c8346576382c322c217301cd7f8f3c8b8b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "99ffd3ab87009d329f763d6e10fd6a5e922371b03bc5d0fc32d557d0e4e1a3e2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a91927b02288a89c8cc6829bbc56b2bdc6c442c31d0cf8aea31fdd790038b68e4682fce54eba08497f2d8ce41382a3a5d6b78f73bd115cfecc5f309db0d9b7df"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.12.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-modules-base"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-modules-base/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-modules-base/jackson-module-jaxb-annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.12.2?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "javax.xml.bind",
+      "name" : "jaxb-api",
+      "version" : "2.3.1",
+      "description" : "JAXB (JSR 222) API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bcf270d320f645ad19f5edb60091e87f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8531ad5ac454cc2deb9d4d32c40c4d7451939b5d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "93a47b245ab830d664a48c9d14e86198a38809ce94f72ca66b3d68746ae1d7b902f6fef2d1ac1a92c01701549ae80a07db69bd822ffd831a95d8dbffad435790"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1eb2d7f307bda8cbf6a4ab5b2b97d830d33ca48ad94eb4bb1cbce860c54fca96285dbcb1ce9b164dbf37d4475f9a198f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8df7409d3f60888f3a80f4d49af66c2cab6dc9f00e79c87c17703faad19d8ba6c8fc96ad897434170ce2686952921cdd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "41338683257d5ecead579ccc137bdef7bc4fea685d039a3d894e1d6730425e1d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3371a96171f69876b0e6b8354674d252680e6d52c509a2645b1a0b0d7f9e176274bde6c89edb40986264733ffb6794cb7b2cba417666b1e82075bd4fd51197b6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CDDL-1.1"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/javaee/jaxb-spec/jaxb-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/javaee/jaxb-spec/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/jaxb-spec.git/jaxb-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "javax.activation",
+      "name" : "javax.activation-api",
+      "version" : "1.2.0",
+      "description" : "JavaBeans Activation Framework API jar",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5e50e56bcf4a3ef3bc758f69f7643c3b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "85262acf3ca9816f9537ca47d5adeabaead7cb16"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8ee0db43ae402f0079a836ef2bff5d15160e3ff9d585c3283f4cf474be4edd2fcc8714d8f032efd72cae77ec5f6d304fc24fa094d9cdba5cf72966cc964af6c9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d38a6af7ed00f13de8b46d49b9592af9b67adf3df47ddae5e4672f989f3f39101d446a77d1c11319acf8ff0a5b4feedf"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cfee76de5976d5994758a06113368092f09b0729d753b99969d6a5ec32919428bd7c270c98cbbc682ff8ebcf2b93fd8d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "aff48d0f28d8a99690c5a84c3fffdb3775452d5387e5698f4c9028c92a3b4888"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0507ece74b3147de60a830071bd434569c82e03f414a2b7f0d8a225dda36720d2e2194799cdc04def1909fdec21059b67c518bb9162f7f605764d542194e721d"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://java.net/all/javax.activation-api/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/javaee/activation/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/activation/javax.activation-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-api",
+      "version" : "2.14.1",
+      "description" : "The Apache Log4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6f31a3b90c3eb09fb0dc0aef155a001c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cd8858fbbde69f46bce8db1152c18a43328aae78"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8caf58db006c609949a0068110395a33067a2bad707c3da35e959c0473f9a916"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2ecbc8e5a03fad8f8133d2b9e83245d4f19bc36f165b20c19e9eac4a0c1bf0422a2e98f796c6bbf47c71bdf34054a1685a6fbb58cef23f2ea830c3946123b8b6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "856a20580d193526153838a89cd9060e1983b52c2ea84b3b5289740998815f14f75e4407e32b9eb69c0fdbdd4f41cd69"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b42e0d81dcf6b398c5883346756ecdd946ea1026349d08c6ca6db7cdc7e75bde4cbd7fce801b789c87d7e377ad6af186"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c6a42722b6c8b4e4d8e786f0db1f760efbb8cea864200a19e2e1a7cf42fcab20"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "27eeef8e7ce45257a2cb6c87c1ef41eba7583aaac78fb32304a32f83198264d17b1a7bd533c058057e75754cc77cead5435e705950e6a893eafa26905d3a745d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-api/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-builds.apache.org/job/Logging/job/log4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOG4J2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-core",
+      "version" : "2.14.1",
+      "description" : "The Apache Log4j Implementation",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "948dda787593340a7af1a18e328b7b7f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9141212b8507ab50a45525b545b39d224614528b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ade7402a70667a727635d5c4c29495f4ff96f061f12539763f6f123973b465b0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6e41ff42f12deedb8da06cbed73d0a9a5389660b7ee058436f8fcb6b14a6ab3105faf8e3f2c007d38ccc85af1e704505b84be5a80d8e68a434aae82b54b85f70"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3b435c14088931e83f71d32066435549331ea1eb5f4535b4cdc1b05fffcfb9db1a34dcaaad4c5c507fe4626122765641"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c42a36302e594172331bbac927d19ffb1f8f1579915943af90efe011d29ebd1ec19aaba6f901d1e4250b4728b61f2a5a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9f48a71534f743323adb78bcdfd20100b56e210649028c2677ab332f13daedda"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2495784a35a2ae6c95f20c15d99b3caa9475773662256a589d0109d86f5c4f5f784b8e24ad2e55a73e78c889c368422764281930f8fb0328890b0f685da21bfe"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-core/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-builds.apache.org/job/Logging/job/log4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOG4J2"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@3.0.2?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@3.0.2?type=jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@3.0.2?type=jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.0.0?type=jar",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-server@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@3.0.2?type=jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.0.0?type=jar",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+        "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-locator@3.0.1?type=jar",
+        "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-locator@3.0.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@3.0.1?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-api@3.0.1?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@3.0.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@3.0.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-api@3.0.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@3.0.1?type=jar",
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@3.0.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-utils@3.0.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@3.0.2?type=jar",
+        "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@3.0.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.12.2?type=jar",
+        "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@3.0.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.12.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar"
+      ]
+    }
+  ]
+}

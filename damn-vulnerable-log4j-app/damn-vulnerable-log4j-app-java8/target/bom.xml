@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:650e720d-7820-4fe4-89c4-cec4a7988424" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2024-02-27T14:33:28Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.4</version>
+        <hashes>
+          <hash alg="MD5">1c0045824ba8b7c3459faf37fadb5ca4</hash>
+          <hash alg="SHA-1">c0259ad78634a65918e328d793d2ea0b8a9c2220</hash>
+          <hash alg="SHA-256">47bd0e0176ba679b66739820bc52880a9e667c57c8b7301de698c0ce7e271bb1</hash>
+          <hash alg="SHA-512">e8b72acd176d5d3e13646c2422d6fac1e47d369162cbde8796afa567d36bd182a5f8f4cbdc46185f3607a71e92c410ab0eacd87ab8c17b38e352eb3077a46ecb</hash>
+          <hash alg="SHA-384">8759a5908a1dbd6797ce597bba7d67a073d63129e1affd9b827482581ee85815b118fb4e950991b9d6793a5d70e8b901</hash>
+          <hash alg="SHA3-384">7721f8119070762eed34e1d7fbe0eb2f590130a62f9ebcf15dbb9d3321ef25ba2b0709eb6f3e922b59f7203554db555c</hash>
+          <hash alg="SHA3-256">3fc2ede35393130c22e8ea1985092c498f51f88c67925701906c910829aaac1e</hash>
+          <hash alg="SHA3-512">7f54ea340410b97d5ccf4b417928359ea30be0d71d4aaa859389f308407e9d94fa3617d395f7e81e00881da67143aa8910fdae2dd01a8fc9c9a07b8bc03fb3b1</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war">
+      <group>com.snapattack.dvlog4ja</group>
+      <name>com.snapattack.dvlog4ja</name>
+      <version>1.0</version>
+      <licenses/>
+      <purl>pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>javax.ws.rs</group>
+      <name>javax.ws.rs-api</name>
+      <version>2.1.1</version>
+      <description>Java API for RESTful Web Services</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">23b81452f9e2076ffefede649975b0d1</hash>
+        <hash alg="SHA-1">d3466bc9321fe84f268a1adb3b90373fc14b0eb5</hash>
+        <hash alg="SHA-256">2c309eb2c9455ffee9da8518c70a3b6d46be2a269b2e2a101c806a537efe79a4</hash>
+        <hash alg="SHA-512">308ffdd33a48f85d27988d702e917c1ac607b758155552ea45a251735ff9e5aed7f7fd4b59b6cb683f8b3adb8ac52d5de928635c3c843291e6d17998ba7d4108</hash>
+        <hash alg="SHA-384">437b4947c5a6ed2ba8f894ab4c362a6898ec501e695b3655d350f538768f66580fd71712753c185bf7182fe261c4f9af</hash>
+        <hash alg="SHA3-384">552597d145cff9e9c74b24ac5ca718960834057ff7b3428aa07b0bcca2a3d9fe31d84a466003eaa6d46c4c1314c4649b</hash>
+        <hash alg="SHA3-256">a69a5f79386855259d568700bedfed7d113a89defe0e6c081a969da5e7d368bd</hash>
+        <hash alg="SHA3-512">7edf62bbf67a30a68cd2c85f8c16d64cb3e657fa372a1771e04f9a8b2d637a3c953d684100cf17219ab24110c7508acc1a095be4574b2d9f1d516e193bd352a0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaxrs-api</url></reference><reference type="distribution"><url>https://repo.eclipse.org/content/repositories/jax-rs-api-releases/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxrs-api/issues</url></reference><reference type="mailing-list"><url>jaxrs-dev@eclipse.org</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxrs-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.containers</group>
+      <name>jersey-container-servlet</name>
+      <version>2.35</version>
+      <description>Jersey core Servlet 3.x implementation</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">706016b04013bb0b488d3759b8e39646</hash>
+        <hash alg="SHA-1">898ef84b72e75788811dd709fe7c7051f61a943e</hash>
+        <hash alg="SHA-256">05dc471810860bfa642ca153313bd82c3594b86b5dca7088bc5d4aacdd709dae</hash>
+        <hash alg="SHA-512">0490791bd5cf55f9f7990e432009e3ce43eabca07b0fad414a2afb0e650433ed6494c479d7c5922314a8bedd42b086733befc0a19ebdf6fcdae55145b40dbda5</hash>
+        <hash alg="SHA-384">e6ee2afd21cb7cf1f0acef3cadb4307a5482d4c0aea43d2e95638f452778c526316010d8a30939b563c9198f77899b4c</hash>
+        <hash alg="SHA3-384">6a5346801facc703c4d8b5a426bea037df8323595914b39931c67afed56ec95af24a7e59a3bf0e2e857b81ccd8e9d80e</hash>
+        <hash alg="SHA3-256">42b1f5611e0c865ed593eeb3a7b542c72c8689837708a20191a215abfe8f8c82</hash>
+        <hash alg="SHA3-512">43af1c5bb95382d3f1f2dc189b47c5a28d4499c1a5738e131852f9d411896fa6f9e3739f01c285b8ed9b64669b2129dfe5162b1bb4f5c56ff41ac69748dd869b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Public Domain</name>
+          <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        </license>
+        <license>
+          <name>Modified BSD</name>
+          <url>http://asm.objectweb.org/license.html</url>
+        </license>
+        <license>
+          <name>jQuery license</name>
+          <url>jquery.org/license</url>
+        </license>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+        <license>
+          <name>W3C license</name>
+          <url>https://www.w3.org/Consortium/Legal/copyright-documents-19990405</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-container-servlet</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/project/jersey-container-servlet</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.containers</group>
+      <name>jersey-container-servlet-core</name>
+      <version>2.35</version>
+      <description>Jersey core Servlet 2.x implementation</description>
+      <hashes>
+        <hash alg="MD5">bfb76674b6d9a0c9cebca33e981b62ab</hash>
+        <hash alg="SHA-1">7cc48f2529b921f25a020c821dde23753f6e60bb</hash>
+        <hash alg="SHA-256">f96811262dee0b0dc6e919da74b3172635d1ba53789e3c9ec1767429bcea6879</hash>
+        <hash alg="SHA-512">0e9581416028ffb64d6d338de43123c6f8fe635caca799eb9b859d15f435b46d206dc3baa7c470863c8350cabc40c8b1e916b7bb9d0a170c928f88c495ee25be</hash>
+        <hash alg="SHA-384">6216cc830c63a7e5e3d7f79f75658806628e0ebdb31e1a844bdb334e220e8e9ffcbc091c1b96ff1355f894d0e0cb8482</hash>
+        <hash alg="SHA3-384">ea85ea05481f9d0ec8eae3b8685aaddaa3a1e1c45753cc53d2afaa4eb755e7f7457f86ac0821482c84835a8a015f250e</hash>
+        <hash alg="SHA3-256">faf7419eef20e680d1d09b19e565b14f76fa9fefc180578996fe97becd6bbb5b</hash>
+        <hash alg="SHA3-512">cff8861f79405ea4c344630d418acb0150a2c88c7ce7e95f6784a7315020c61b60105345aff9ecc36b59f0aa30e5b42aa47bc6b9cefefc9c5b1da7fb39ebb0c9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Public Domain</name>
+          <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        </license>
+        <license>
+          <name>Modified BSD</name>
+          <url>http://asm.objectweb.org/license.html</url>
+        </license>
+        <license>
+          <name>jQuery license</name>
+          <url>jquery.org/license</url>
+        </license>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+        <license>
+          <name>W3C license</name>
+          <url>https://www.w3.org/Consortium/Legal/copyright-documents-19990405</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-container-servlet-core</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/project/jersey-container-servlet-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>org.glassfish.hk2.external</group>
+      <name>jakarta.inject</name>
+      <version>2.6.1</version>
+      <description>Injection API (JSR 330) version ${javax.inject.version} repackaged as OSGi bundle</description>
+      <hashes>
+        <hash alg="MD5">4d7c80a1e3cd54531af03bef4537f7af</hash>
+        <hash alg="SHA-1">8096ebf722902e75fbd4f532a751e514f02e1eb7</hash>
+        <hash alg="SHA-256">5e88c123b3e41bca788b2683118867d9b6dec714247ea91c588aed46a36ee24f</hash>
+        <hash alg="SHA-512">7fc8196ad9ee03a831dfff85c945e416c3906071a7aa8ebf6ab8b7008dfec0adccc1f1dca53ed6768ac5676cd4b3c43471674f97ff73e1f61f5a427aaed68e05</hash>
+        <hash alg="SHA-384">6b3ea9eeec5cbbc1fb3e6c89160af67b82ffbd68948dd4790e3fe3ce2fc495c063698a7d6a1998d5db51abafe3915e19</hash>
+        <hash alg="SHA3-384">b551e00861151233789c03cec07e162d90d1f377fb8f26d413f7015152188183d636e2837ceca131096c43511e618efa</hash>
+        <hash alg="SHA3-256">67f3b5a4b3006d07a33ccdbbb70f312c94d2d8cdd32598d471b079470574ab6d</hash>
+        <hash alg="SHA3-512">a0b6c00df7f5b53f549193a7e6a26d632847957ad296aef2ee75a23a5ebdec970f793511641e6c63677b481c47ca67f4039a5ee5f4bb532a46093a201782198d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/glassfish-hk2/external/jakarta.inject</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/glassfish-hk2/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2/external/jakarta.inject</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.core</group>
+      <name>jersey-common</name>
+      <version>2.35</version>
+      <description>Jersey core common packages</description>
+      <hashes>
+        <hash alg="MD5">a0b9a2cea9ecbaf2170ed0757020ed05</hash>
+        <hash alg="SHA-1">2f15ec1b3a3598d6b12d4b0c6ff6f0905f5e5b4c</hash>
+        <hash alg="SHA-256">48f3d25c7f57c8feaad88143854ad37807b24a7701c739120b967dd37f382c8f</hash>
+        <hash alg="SHA-512">d64d7094ccede507f9b0ee95eb32ed3ccf09a0cae0a16366426f2a0d15b0ec3a9d49d984b4b6a9261a7424e7a8f02f1ef5a47618ef9a7755251f5286387b0eac</hash>
+        <hash alg="SHA-384">82916252640243bb2f4cc012748ff8f8691a13225b1dbf07276c868cf1d33d346cf17f1ecbb80043db2153208357e6a9</hash>
+        <hash alg="SHA3-384">793f94a5263800aabb4780b957371016774b1df931caf4ef051dc5e4b2bbd5870b132691b641eafef8952b426216409f</hash>
+        <hash alg="SHA3-256">2863338149661645fba5f42cd684f182634d5088cb218c9ba3a7bc93801c3402</hash>
+        <hash alg="SHA3-512">ac137206b78791d30c5a68a717dc15e8d576a1ea0d5c9eb838c89d130f5da404976def4c248860771620d0d886f9949cf06aa54b2be9533bf122d951603d3805</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <name>The GNU General Public License (GPL), Version 2, With Classpath Exception</name>
+          <url>https://www.gnu.org/software/classpath/license.html</url>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Public Domain</name>
+          <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/jersey-common</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/jersey-common</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.annotation</group>
+      <name>jakarta.annotation-api</name>
+      <version>1.3.5</version>
+      <description>Jakarta Annotations API</description>
+      <hashes>
+        <hash alg="MD5">8b165cf58df5f8c2a222f637c0a07c97</hash>
+        <hash alg="SHA-1">59eb84ee0d616332ff44aba065f3888cf002cd2d</hash>
+        <hash alg="SHA-256">85fb03fc054cdf4efca8efd9b6712bbb418e1ab98241c4539c8585bbc23e1b8a</hash>
+        <hash alg="SHA-512">d1acff146c0f9ea923a9325ad4c22ba2052ec474341ab8392abab7e8abd3ca010db2400ff9b5849fc4f1fa5c0a18830eb104da07a13bd26b4f0a43d167935878</hash>
+        <hash alg="SHA-384">004a4bde333c0575f72df1cb9cf95ee0c6c7f738a6f0f723a5ec545aaa1664abeb82f01627708a1377e3136754fb7859</hash>
+        <hash alg="SHA3-384">abcc5b1fbad59b3e9b6d2d6195ec11d6254f689116c534a964724b61f815cca60ba3a2c1489933403f3f78dc54fd20a6</hash>
+        <hash alg="SHA3-256">3d3ef16365e7a0357d82f874fa26b2b0a146cf7bf98a351c65ef1586444fa009</hash>
+        <hash alg="SHA3-512">88625a8811be514851209291344df32478b527bc7838ddee58752269bf2457ae8f4e6b6a0d0b5c18522e287ba6df1def0cb19dee2b85e01ee21f0b48ac2630d3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.ca</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/common-annotations-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/ca-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/common-annotations-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.hk2</group>
+      <name>osgi-resource-locator</name>
+      <version>1.0.3</version>
+      <description>Used by various API providers that rely on META-INF/services mechanism to locate providers.</description>
+      <hashes>
+        <hash alg="MD5">e7e82b82118c5387ae45f7bf3892909b</hash>
+        <hash alg="SHA-1">de3b21279df7e755e38275137539be5e2c80dd58</hash>
+        <hash alg="SHA-256">aab5d7849f7cfcda2cc7c541ba1bd365151d42276f151c825387245dfde3dd74</hash>
+        <hash alg="SHA-512">4d84983a9b1c72f58661b576c78ca456a2106602c2ad211cd7e72d94464c8774173b34a35629c507c7c84c982f1de0c9bf48352458e8480be5f874d20d6e69a3</hash>
+        <hash alg="SHA-384">9f92002296c66cc8996d459b95a9c531ec71b98a8b819121abbc7d636a6c4ace04c88878ba6917f71650280a880d1ce2</hash>
+        <hash alg="SHA3-384">b27581d003ce715fba7e2958dbe73b64330b8586d94dd2f4b80b3d4861fd36415af6c2fe1005a798a7bd4f706d77e3d1</hash>
+        <hash alg="SHA3-256">cf90e96adac2f1167ff71267db4a91c75d824f8a4b0359d2ab7d50b1c87c3952</hash>
+        <hash alg="SHA3-512">75f9ff6c3ab03f4471ac04789c181b75edf4c5dbf985a5616b2c979de59aa478b02593036f740a6c7bb71afcb145c131a3ff3e5a6a53336abab22f2cc9825772</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j/osgi-resource-locator</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/ee4j/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2-extra</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.core/jersey-server@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.core</group>
+      <name>jersey-server</name>
+      <version>2.35</version>
+      <description>Jersey core server implementation</description>
+      <hashes>
+        <hash alg="MD5">35b97c2f6cf76195628135cb9300d41e</hash>
+        <hash alg="SHA-1">c6efc2ee82d2550e6385a7f7b1c08651f71afb7a</hash>
+        <hash alg="SHA-256">f4190e52847c5bc6db1fd13ce34b1888e398e35bc9f090cbfad7997b8e9c8b65</hash>
+        <hash alg="SHA-512">847b201c51c326cfb6fb1a3dbaa5e45bdd93ac24d368ac9145ffaa47e7744d42f33ed68ad072eb38d9d68861843920cea90dd053c68e18ef8114a51085349108</hash>
+        <hash alg="SHA-384">cdb8d2b77a6c2f2f949815e4d0af24ef19a84a8dfb08e048bdb33b97fc6f7c4d9d9655e8f2c784f0d06fa667e8122422</hash>
+        <hash alg="SHA3-384">5ad4d4dd08759a84ccc26ee20c09f97abce1706e7b1a5e662df38819ce59b2b22ae79e020badac7a5d68451199eba5aa</hash>
+        <hash alg="SHA3-256">8f9c414b9c6ec73dd2a5fa5fd28a1b3b03648309743282c8f7195e40bf92a82f</hash>
+        <hash alg="SHA3-512">5586f36e0d813cbec7f5f7863215d4d1bbf9ed1bf63251a3f7685cc3fe03092cd63528d1c70fbddd00a13a13d56512dc878ed9a5295cad4360a40e37aa3c5d24</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <name>The GNU General Public License (GPL), Version 2, With Classpath Exception</name>
+          <url>https://www.gnu.org/software/classpath/license.html</url>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Modified BSD</name>
+          <url>http://asm.objectweb.org/license.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.core/jersey-server@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/jersey-server</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/jersey-server</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.core/jersey-client@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.core</group>
+      <name>jersey-client</name>
+      <version>2.35</version>
+      <description>Jersey core client implementation</description>
+      <hashes>
+        <hash alg="MD5">690961343e41659f42bb0190e65cb5ef</hash>
+        <hash alg="SHA-1">ea92be0dd34d0b298930a7514e715783f4eaba97</hash>
+        <hash alg="SHA-256">62cc4f316b1924d2e6323045d35a5ca114904b167e8f8745c9004cbe2b608f8b</hash>
+        <hash alg="SHA-512">32b413458efea652c0d4e92920fdb46473644768e87d92825457c59a7ce06ae6bcf9608081758a191079a735aa6f47fbf11d396b2fb4afacc6f0d884b8dfc938</hash>
+        <hash alg="SHA-384">81f72674f96fc201cbd6d7149a5c09ae681759c011b96c0847f9610090465da5c15f805b7a5e082cb4c646dee1fc44d2</hash>
+        <hash alg="SHA3-384">3df857ea9aa2d886111bcd4d39c67872b0e39243720221e317f7dc88bfc2034f800cffc3f080df87da378d17b8805be8</hash>
+        <hash alg="SHA3-256">bddd86cf99d80df51a6c673c97bfda9d1d1c7242b9e03a5ba05eeb0cb8eff2d8</hash>
+        <hash alg="SHA3-512">0fed755b314954b4d7e9c552c965374dc03c260b6c502f07a05cb71a9658a1b8278d0cebddf010452e2d3e27f46044d7e46bfde1a4053ab1c9dbd9b18cb30045</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Public Domain</name>
+          <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        </license>
+        <license>
+          <name>Modified BSD</name>
+          <url>http://asm.objectweb.org/license.html</url>
+        </license>
+        <license>
+          <name>jQuery license</name>
+          <url>jquery.org/license</url>
+        </license>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+        <license>
+          <name>W3C license</name>
+          <url>https://www.w3.org/Consortium/Legal/copyright-documents-19990405</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.core/jersey-client@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/jersey-client</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/jersey-client</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.validation</group>
+      <name>jakarta.validation-api</name>
+      <version>2.0.2</version>
+      <description>Jakarta Bean Validation API</description>
+      <hashes>
+        <hash alg="MD5">77501d529c1928c9bac2500cc9f93fb0</hash>
+        <hash alg="SHA-1">5eacc6522521f7eacb081f95cee1e231648461e7</hash>
+        <hash alg="SHA-256">b42d42428f3d922c892a909fa043287d577c0c5b165ad9b7d568cebf87fc9ea4</hash>
+        <hash alg="SHA-512">3ca8556b80ca809b3a43fac31469702bbad62a00e63b11a304dad1e372d9f6c128357463a4c70c423055941c7e2e417f87a9474a204d189c8e4b62f42047c8eb</hash>
+        <hash alg="SHA-384">6ae3963fd6a5e83b068a8344b88f6bfbd26d29cee64193025bc5e98195678e49826463da27a7a1c15cd83b2149d57a94</hash>
+        <hash alg="SHA3-384">55a570386718064b422f9ebc0c0c07f0b37259e44a14c9a16c20e945402339b1d01b7d6969ef40d6b5baf5bce3e1161d</hash>
+        <hash alg="SHA3-256">1ff48fdabab86a398b25e491e6ba4fd9b62d597314202628a3cfedf723c17f21</hash>
+        <hash alg="SHA3-512">c23bb0b43fb0c39d4c9d2cce0cd38334fa7c253130f0bda3007d9f7d2dd451c0896ff4265ee2cc35024fad282f9ccaa398c19874775d9cabbb786843fae155d7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://beanvalidation.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://hibernate.atlassian.net/projects/BVAL/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/beanvalidation-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.ws.rs</group>
+      <name>jakarta.ws.rs-api</name>
+      <version>2.1.6</version>
+      <description>Jakarta RESTful Web Services API</description>
+      <hashes>
+        <hash alg="MD5">c3892382aeb5c54085b22b1890511d29</hash>
+        <hash alg="SHA-1">1dcb770bce80a490dff49729b99c7a60e9ecb122</hash>
+        <hash alg="SHA-256">4cea299c846c8a6e6470cbfc2f7c391bc29b9caa2f9264ac1064ba91691f4adf</hash>
+        <hash alg="SHA-512">c1e2655269b9a32f9c0aec9edf12bf6d8b397d8cbcf60e28dd21ab13ecc2738800ebe5c2d49ed3c50d4dac6617671f0fae873daf8ec116a16ef7f7f0a3bef7fa</hash>
+        <hash alg="SHA-384">3fd05e2b167d927216d3b2fc9d1c5a70aa3911d075c2159f958ce755c6a41d93bd76f0ce79ccd22e5a60182aa91fdb07</hash>
+        <hash alg="SHA3-384">3a110ff82d6a0dba4adf024a6425e68689416dd8f0e841f2bade574dfaebcbcfede410116530714b68ef9d32a318c286</hash>
+        <hash alg="SHA3-256">794fe21a9e2634744c65b299a232756391316c0b71e440973575bcde78907c17</hash>
+        <hash alg="SHA3-512">fe482041b54c5f7a40d670af73c0c0c0a562bf74f4bfd684f8aef56decfbc5230901768814f7d0b0ec600828fea39bb8621cd121f616778278a03f67fd497310</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaxrs-api</url></reference><reference type="distribution"><url>https://repo.eclipse.org/content/repositories/jax-rs-api-releases/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxrs-api/issues</url></reference><reference type="mailing-list"><url>jaxrs-dev@eclipse.org</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxrs-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.35?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jersey.inject</group>
+      <name>jersey-hk2</name>
+      <version>2.35</version>
+      <description>HK2 InjectionManager implementation</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">3b6630c199f38793d8c654c09f4a3e09</hash>
+        <hash alg="SHA-1">2be6d2227081028566e8e2b0fc6a1abbaecf56f7</hash>
+        <hash alg="SHA-256">a402bf76ce4289a817643a2d7634a0e78ab9058eab6861d75d5452cc51c6ef07</hash>
+        <hash alg="SHA-512">75505acecf573edc0a74d20f563fd3309e2d205fc2205e2d923b71561babcb280a8023c13182f6062ace1a77a4e05f9b16e7ca63b819b728130ef166bc563dff</hash>
+        <hash alg="SHA-384">c312a7fe07b5f627493bf575af927ab2ac7e4f189fc5eacbf8d2e067c0dc249e96178445501be2a20bd2a4df5a09a0d7</hash>
+        <hash alg="SHA3-384">f75484cc13904ab8c06196c887c85c21bf8ff81131627a5e23ae98de7d951390f32aeb12b24220af7e41b07fb674bf2c</hash>
+        <hash alg="SHA3-256">a6189315974f14ee94c0f8f67aceb4dd83e1d8e78fae3aede2c5d3a54b0c373c</hash>
+        <hash alg="SHA3-512">cf6d4d9b4c146d429a48a2911d4d6c6ae8edf0103178cb4efccd2eaa83c93c048068ebd4c0a2e8662ab500d1c270c2c665998a62ecd2b294d3c5336c890b472c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <name>Apache License, 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+        <license>
+          <name>Public Domain</name>
+          <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+        </license>
+        <license>
+          <name>Modified BSD</name>
+          <url>http://asm.objectweb.org/license.html</url>
+        </license>
+        <license>
+          <name>jQuery license</name>
+          <url>jquery.org/license</url>
+        </license>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+        <license>
+          <name>W3C license</name>
+          <url>https://www.w3.org/Consortium/Legal/copyright-documents-19990405</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.35?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-hk2</url></reference><reference type="build-system"><url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jersey/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jersey/project/jersey-hk2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>org.glassfish.hk2</group>
+      <name>hk2-locator</name>
+      <version>2.6.1</version>
+      <description>ServiceLocator Default Implementation</description>
+      <hashes>
+        <hash alg="MD5">dfd358720393d83b01747928db6e3912</hash>
+        <hash alg="SHA-1">9dedf9d2022e38ec0743ed44c1ac94ad6149acdd</hash>
+        <hash alg="SHA-256">febc668deb9f2000c76bd4918d8086c0a4c74d07bd0c60486b72c6bd38b62874</hash>
+        <hash alg="SHA-512">e2c87a265f114042f4c04397db4adca7291fd68e08e97129576ceb603287b57ccf5b03d0c285727ebb8cd7f88009280bdeab4254475d59da1ac41ba57b7cdecb</hash>
+        <hash alg="SHA-384">05afff9ebfdbdaed71770a58fe334751b9ac7476eb4114e08fc376bf4e16226b5016784c99c3dd8cb04c79d954068402</hash>
+        <hash alg="SHA3-384">6d7b53bb3939b45c75ef11a899bde1b7acf6ef1e3f3285687060c830505e540f1843d4f631b949fc8727c2a58cf0cfda</hash>
+        <hash alg="SHA3-256">20def735fc2d01276b1c9e0961c68aac17722eff6e224ca43fb062ba592a2131</hash>
+        <hash alg="SHA3-512">07822cb6669f8387a4b56cc28709347197b1d4c3ac36e2cd8f2e5dc36d50937aeabdc1dea47b8028d0e91a700aeed6d18066280b66101a43bb4ca00f6ca2181f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-locator</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/glassfish-hk2/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-locator</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>org.glassfish.hk2.external</group>
+      <name>aopalliance-repackaged</name>
+      <version>2.6.1</version>
+      <description>Dependency Injection Kernel</description>
+      <hashes>
+        <hash alg="MD5">0237846ebdaa7db36b356044a373ffba</hash>
+        <hash alg="SHA-1">b2eb0a83bcbb44cc5d25f8b18f23be116313a638</hash>
+        <hash alg="SHA-256">bad77f9278d753406360af9e4747bd9b3161554ea9cd3d62411a0ae1f2c141fd</hash>
+        <hash alg="SHA-512">2d9e5395ba887fa5bb6a8209b731292d440f5c1db2fccaf56c41b1f1d9f774733da28aa8b9b769e765fe62f3640d7bcb2cf6140f0044a8b576e9e45144038c46</hash>
+        <hash alg="SHA-384">f481e2a4e18308a1a0bd85e79f95711434436fa69a504fe98a3d7ea899eaed505a5cb2bfe08f41d1b2af56e150ec0741</hash>
+        <hash alg="SHA3-384">df0d777477b068b3a3a6d368b8a647401f1531fd4bdce623c22b06b5fb6153cbeccaec9afcafb1c65efbdc49b73399ea</hash>
+        <hash alg="SHA3-256">7c15e6095397160fe1c26a56964a42b85e23062644866a9ca93f6c24ccfe5212</hash>
+        <hash alg="SHA3-512">da354a243056157b800aae44d0a6b9697399a37f3ea805ec192debd47f9ea493e224794a392786d54608324a01b6e1745210ffe4d8ef1e956b941adfe820fe52</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/glassfish-hk2/external/aopalliance-repackaged</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/glassfish-hk2/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2/external/aopalliance-repackaged</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>org.glassfish.hk2</group>
+      <name>hk2-api</name>
+      <version>2.6.1</version>
+      <description>HK2 API module</description>
+      <hashes>
+        <hash alg="MD5">23e8c18dae0c7b776bed756763d5153f</hash>
+        <hash alg="SHA-1">114bd7afb4a1bd9993527f52a08a252b5d2acac5</hash>
+        <hash alg="SHA-256">c2cb80a01e58440ae57d5ee59af4d4d94e5180e04aff112b0cb611c07d61e773</hash>
+        <hash alg="SHA-512">9abe9f78d7f6c805b6c7b515579230e5fa573abbcd818bed56068080d6458608e2e99d5937eb959cf1e4f4cfdc4f790059dfc1231313cd8f30aaefbf518eb1c7</hash>
+        <hash alg="SHA-384">2236ca10af39c4f4f6f1ac63c3652eaa4124bce8f557f8ebaa78576e00c25b986ee9d7e417db6edb9a06aa46b36f4d24</hash>
+        <hash alg="SHA3-384">a836a3bdd7e94c1c69fe3aa7692989b404f3e249224e70382f4ab88d3ef64c51b57a539a7fc9253f93d43665d7de70c3</hash>
+        <hash alg="SHA3-256">422eb417b817a7e9af62e36c6657fc9e10b461df59985f436970d75e9db4ca04</hash>
+        <hash alg="SHA3-512">489625c546c34b7c6e395522843be55419706c3a951bc4e494002853dc913e175fbf3a6b7acb4ba581fd6995b56c2cc1431055e5b5416f71ea5519a0b8d5ce56</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-api</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/glassfish-hk2/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>org.glassfish.hk2</group>
+      <name>hk2-utils</name>
+      <version>2.6.1</version>
+      <description>HK2 Implementation Utilities</description>
+      <hashes>
+        <hash alg="MD5">75ccb55538a77bf878996497ffeb86f3</hash>
+        <hash alg="SHA-1">396513aa96c1d5a10aa4f75c4dcbf259a698d62d</hash>
+        <hash alg="SHA-256">30727f79086452fdefdab08451d982c2082aa239d9f75cdeb1ba271e3c887036</hash>
+        <hash alg="SHA-512">8da7cd88de45270b1fcfd2c471ae092b3972af78a6e0ecc76ed4ac10b6bd6712d2a538bd163a457f21cea4e7e5c52f547108f44aaa791ed0fd069f697f1282c1</hash>
+        <hash alg="SHA-384">94fb55c1f57b96fd84e717fbf3c254f16e2308bc33976addb71d26bf367b7c2ec63e657a953f30f55d7046dd07510e50</hash>
+        <hash alg="SHA3-384">b2d1842c0e31c8a83179b3a4d8aa08953747a868d8e1d599201feb8cc3f6e694adcd355581dc58bcad7cec515898eb7e</hash>
+        <hash alg="SHA3-256">4169734272046ce681790cbbb553652c3ada2af1a5201a2ab9ab6210451e3e70</hash>
+        <hash alg="SHA3-512">f2bea2fee534c92fc6ae2322696ac97d7e62654cb7ce635342c7f0234d0562f1f8537677a0263d9a76bdaeb57248d37bce537f9b36506db75d0e31024d6e8789</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-utils</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/glassfish-hk2/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/glassfish-hk2-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/glassfish-hk2/hk2-utils</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar">
+      <publisher>Shigeru Chiba, www.javassist.org</publisher>
+      <group>org.javassist</group>
+      <name>javassist</name>
+      <version>3.25.0-GA</version>
+      <description>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation
+    simple.  It is a class library for editing bytecodes in Java.</description>
+      <hashes>
+        <hash alg="MD5">3a4267e01989478be188d127b7a39425</hash>
+        <hash alg="SHA-1">442dc1f9fd520130bd18da938622f4f9b2e5fba3</hash>
+        <hash alg="SHA-256">5d49abd02997134f80041645e9668e1ff97afd69d2c2c55ae9fbd40dc073f97b</hash>
+        <hash alg="SHA-512">638d2ed77ae1f34dd57f6aa653635a77d8477b3e99f64343ea5eafcec49ebac13250639924c47c83246890bd8988d92c30785ed8854c8a101138c410657cb944</hash>
+        <hash alg="SHA-384">183a243f52aaea67057564cf0d18f0c32681907aa24eb65bbfd453016911cb42230a73271a0da20e3f1aabf4b0412e4e</hash>
+        <hash alg="SHA3-384">418f2a833307c287b212c841dc5145f0bd39e519cc6dddc8a8f714c42a1ffccc2cffc6d5032a0e8dbee1aceca1559aa4</hash>
+        <hash alg="SHA3-256">0f1283759cfa9d3396af30a9535e7e1ef58fd0f46cf0ae362c09754360cc22a5</hash>
+        <hash alg="SHA3-512">ac55a2bd2318bfd32545fa2bd89d8ce3c54188440b5f315e8a4c3ce4f91f97ab185b3b9eeaeedeebfb48febab07e8deb8f604d44fcaae64df486447d733e7e98</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MPL-1.1</id>
+        </license>
+        <license>
+          <id>LGPL-2.1-only</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.javassist.org/</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference><reference type="vcs"><url>scm:git:git@github.com:jboss-javassist/javassist.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.logging.log4j</group>
+      <name>log4j-api</name>
+      <version>2.14.1</version>
+      <description>The Apache Log4j API</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">6f31a3b90c3eb09fb0dc0aef155a001c</hash>
+        <hash alg="SHA-1">cd8858fbbde69f46bce8db1152c18a43328aae78</hash>
+        <hash alg="SHA-256">8caf58db006c609949a0068110395a33067a2bad707c3da35e959c0473f9a916</hash>
+        <hash alg="SHA-512">2ecbc8e5a03fad8f8133d2b9e83245d4f19bc36f165b20c19e9eac4a0c1bf0422a2e98f796c6bbf47c71bdf34054a1685a6fbb58cef23f2ea830c3946123b8b6</hash>
+        <hash alg="SHA-384">856a20580d193526153838a89cd9060e1983b52c2ea84b3b5289740998815f14f75e4407e32b9eb69c0fdbdd4f41cd69</hash>
+        <hash alg="SHA3-384">b42e0d81dcf6b398c5883346756ecdd946ea1026349d08c6ca6db7cdc7e75bde4cbd7fce801b789c87d7e377ad6af186</hash>
+        <hash alg="SHA3-256">c6a42722b6c8b4e4d8e786f0db1f760efbb8cea864200a19e2e1a7cf42fcab20</hash>
+        <hash alg="SHA3-512">27eeef8e7ce45257a2cb6c87c1ef41eba7583aaac78fb32304a32f83198264d17b1a7bd533c058057e75754cc77cead5435e705950e6a893eafa26905d3a745d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://logging.apache.org/log4j/2.x/log4j-api/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Logging/job/log4j/</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.logging.log4j</group>
+      <name>log4j-core</name>
+      <version>2.14.1</version>
+      <description>The Apache Log4j Implementation</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">948dda787593340a7af1a18e328b7b7f</hash>
+        <hash alg="SHA-1">9141212b8507ab50a45525b545b39d224614528b</hash>
+        <hash alg="SHA-256">ade7402a70667a727635d5c4c29495f4ff96f061f12539763f6f123973b465b0</hash>
+        <hash alg="SHA-512">6e41ff42f12deedb8da06cbed73d0a9a5389660b7ee058436f8fcb6b14a6ab3105faf8e3f2c007d38ccc85af1e704505b84be5a80d8e68a434aae82b54b85f70</hash>
+        <hash alg="SHA-384">3b435c14088931e83f71d32066435549331ea1eb5f4535b4cdc1b05fffcfb9db1a34dcaaad4c5c507fe4626122765641</hash>
+        <hash alg="SHA3-384">c42a36302e594172331bbac927d19ffb1f8f1579915943af90efe011d29ebd1ec19aaba6f901d1e4250b4728b61f2a5a</hash>
+        <hash alg="SHA3-256">9f48a71534f743323adb78bcdfd20100b56e210649028c2677ab332f13daedda</hash>
+        <hash alg="SHA3-512">2495784a35a2ae6c95f20c15d99b3caa9475773662256a589d0109d86f5c4f5f784b8e24ad2e55a73e78c889c368422764281930f8fb0328890b0f685da21bfe</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://logging.apache.org/log4j/2.x/log4j-core/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Logging/job/log4j/</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-core</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/com.snapattack.dvlog4ja/com.snapattack.dvlog4ja@1.0?type=war">
+      <dependency ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.35?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-server@2.35?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.35?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-server@2.35?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar">
+      <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-server@2.35?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-client@2.35?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+    <dependency ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-client@2.35?type=jar">
+      <dependency ref="pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.35?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jersey.core/jersey-common@2.35?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1?type=jar"/>
+    </dependency>
+  </dependencies>
+</bom>
